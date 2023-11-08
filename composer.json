@@ -1,0 +1,27 @@
+{
+    "name": "rainte/yii",
+    "type": "library",
+    "description": "Yii",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sean",
+            "email": "sxfmao@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "yiisoft/yii2": "~2.0.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rainte\\Yii\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
+        }
+    }
+}
